@@ -1,5 +1,21 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+body {
+  background-color: green;
+}
+
+.card {
+  width: 400px;
+  height: 80vh;
+  position: relative;
+}
+
+.card-suite-lower {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
 /* 
     body{
         background: #BDBDBD;
